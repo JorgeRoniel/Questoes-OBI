@@ -1,8 +1,5 @@
 #pegamos os quatro valores solicitados pela questão
-n1 = int(input("Digite o primeiro num: "))
-n2 = int(input("Digite o segundo num: "))
-n3 = int(input("Digite o terceiro num: "))
-n4 = int(input("Digite o quarto num: "))
+n1, n2, n3, n4 = [int(n) for n in input().split()]
 
 
 soma = n1+n2+n3+n4 #fazemos a soma

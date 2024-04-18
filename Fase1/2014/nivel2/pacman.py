@@ -1,12 +1,12 @@
 #Aqui pegamos do usuario o tamanho do tabuleiro
-tab = int(input("digite o tamanho do tabulheiro: "))
+tab = int(input())
 
 jogadas = [] #definimos uma lista para guardar o conjunto de jogadas
 jog = [] #definimos outra lista para guardar cada jogada
 
 #aqui o usuario vai inserir a jogada, que vai ser guardada em 'jog', apos isso é guardada em jogadas
 for i in range(tab):
-    jog = input('digite a jogada: ').split()
+    jog = input().split()
     jogadas.append(jog)
 
 cont = 0 #definimos um contador, para contar quantos 'o' irão aparecer
