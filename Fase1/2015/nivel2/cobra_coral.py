@@ -1,11 +1,10 @@
 #pegamos os quatro valores solicitados pela questão
-n1, n2, n3, n4 = [int(n) for n in input().split()]
+n1,n2,n3,n4 = map(int, input().split())
 
 
-soma = n1+n2+n3+n4 #fazemos a soma
-
-#caso a soma seja maior ou igual a vinte, a cobra coral é verdadeira, senão é falsa.
-if soma >= 20:
+if n1 == n3 and n2 != n4:
+    print("V")  
+elif n1 != n3 and n2 == n4:
     print("V")
 else:
     print("F")
