@@ -1,6 +1,6 @@
 #pegamos a letra a ser contada e um texto
-letra = input("digite a letra desejada: ")
-texto = input("Digite o texto: ")
+letra = input()
+texto = input()
 
 txt2 = texto.replace(letra, "1") #substituo a letra desejada por um caractere qualquer, por exemplo, usei o '1'
 l = txt2.split() #separo cada palavra do texto e gurado em uma lista
@@ -8,7 +8,7 @@ ocorrencia = 0 # inicio uma variavel para contar as vezes que meu caractere espe
 
 #percorro a lista, caso meu caractere especial esteja na palavra, eu adiciono 1 em ocorrencia
 for i in l:
-    if "1" in l:
+    if '1' in i:
         ocorrencia += 1
 
 p = (ocorrencia * 100) / len(l) #calculo a porcentagem das ocorrencias

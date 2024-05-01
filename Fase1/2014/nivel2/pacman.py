@@ -7,7 +7,7 @@ jog = []
 for i in range(tab):
     j = input()
     jog = list(j)
-    jogadas.append(jog)
+    jogadas.append(jog) #['.', 'o', 'o']
 
 cont = 0 #definimos um contador, para contar quantos 'o' irão aparecer
 l = [] #definimos essa lista para pegar os valores da variavel cont e depois pegar o maior

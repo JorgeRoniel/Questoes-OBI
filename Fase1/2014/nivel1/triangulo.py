@@ -1,3 +1,4 @@
+#Função para verificar se é triangulo
 def is_triangulo(a, b ,c):
     if a < (b+c) and b < (a+c) and c < (b+a):
         return True
@@ -7,6 +8,7 @@ def is_triangulo(a, b ,c):
 #pego os 4 comprimentos que são solicitados na questão
 n1, n2, n3, n4 = [int(n) for n in input().split()]
 
+#testando para todos os comprimentos
 if (is_triangulo(n1, n2, n3) or 
 is_triangulo(n1, n2, n4) or 
 is_triangulo(n1, n3, n4) or 
