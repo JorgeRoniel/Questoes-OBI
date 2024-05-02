@@ -14,6 +14,7 @@
   <li><a href='https://github.com/JorgeRoniel/Questoes-OBI/blob/main/Fase1/2014/nivel2/fechadura.py'>Fechadura</a></li>
   <li><a href='https://github.com/JorgeRoniel/Questoes-OBI/blob/main/Fase1/2014/nivel2/lingua_doP.py'>Língua do P</a></li>
   <li><a href='https://github.com/JorgeRoniel/Questoes-OBI/blob/main/Fase1/2014/nivel2/pacman.py'>Pacman</a></li>
+  <li><a href='https://github.com/JorgeRoniel/Questoes-OBI/blob/main/Fase1/2014/nivel2/copa.py'>Copa do Mundo</a></li>
 </ul>
 <hr>
 <h3>2015</h3>
@@ -29,4 +30,5 @@
   <li><a href='https://github.com/JorgeRoniel/Questoes-OBI/blob/main/Fase1/2015/nivel2/caixinha_de_palitos.py'>Caixinha de Palitos</a></li>
   <li><a href='https://github.com/JorgeRoniel/Questoes-OBI/blob/main/Fase1/2015/nivel2/cobra_coral.py'>Cobra Coral</a></li>
   <li><a href='https://github.com/JorgeRoniel/Questoes-OBI/blob/main/Fase1/2015/nivel2/quebra_cabeca.py'>Quebra-Cabeça</a></li>
+  <li><a href='https://github.com/JorgeRoniel/Questoes-OBI/blob/main/Fase1/2015/nivel2/familia.py'>Familia Real</a></li>
 </ul>
