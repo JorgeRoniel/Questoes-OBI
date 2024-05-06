@@ -1,5 +1,20 @@
-frase1 = input()
+codigo = input().strip()
 
-frase2 = frase1.replace('p', '')
+mensagem=''
 
-print(frase2)
+i=0
+while i<len(codigo):
+    if codigo[i]==' ':
+        mensagem=mensagem+' '
+    else:
+        i=i+1
+        mensagem=mensagem+codigo[i]
+    i=i+1
+'''
+cod = pUpm pfpiplpmpe plpepgpapl
+msg = 'Um filme legal'
+i = 8
+
+
+'''
+print(mensagem)
