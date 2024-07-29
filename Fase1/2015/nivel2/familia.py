@@ -2,8 +2,8 @@ n, m = map(int, input().split()) #pega quantas gerações e quantos foram na fes
 
 geracoes = [[] for _ in range(n+1)] #faz uma lista de listas vazias para registar as gerações
 pais = list(map(int, input().split())) #pega os pais, segunda linha da entrada
-for childid, parentid in enumerate(pais, 1):
-    geracoes[parentid].append(childid) #preenche a lista com as gerações
+for filhoid, paiId in enumerate(pais, 1):
+    geracoes[paiId].append(filhoid) #preenche a lista com as gerações
 
 visitados = [False] * (n+1) #criamos uma lista pra registrar os nós ja visitados
 lista_comp = list(map(int, input().split())) #pegamos os descendentes que foram a festa
