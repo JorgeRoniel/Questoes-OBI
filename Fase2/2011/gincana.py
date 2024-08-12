@@ -22,17 +22,17 @@ for x in range(m):
     l.append(alunos)
 
 '''
-adjacencias: Um dicionário que será usado para armazenar o grafo,
+adjacencias: Uma lista de listas que será usado para armazenar o grafo,
 onde cada estudante é uma chave e seu valor é uma lista de estudantes 
 conectados.
 '''
-adjacencias = {i: [] for i in range(1, n+1)}
+adjacencias = [[] for _ in range(n+1)]
 
 '''
-visitados: Um dicionário que marca se cada 
+visitados: Uma lista que marca se cada 
 estudante foi visitado (False inicialmente para todos).
 '''
-visitados = {i: False for i in range(1, n+1)}
+visitados = [False] * (n + 1)
 
 for i, j in l:
     adjacencias[i].append(j)

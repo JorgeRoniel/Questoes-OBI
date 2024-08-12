@@ -24,7 +24,7 @@ componente conexo encontrado.
 '''
 
 def contar_familias(N, relacionamentos):
-    # Criar a lista de adjacência
+    # Criar a matriz de adjacência
 
     '''
     adj é uma lista de listas, 
